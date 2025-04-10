@@ -5,6 +5,9 @@ This is a Sudoku Solver with two modes:
 - Auto-generate and solve
 - Manually input a puzzle and solve
 
+## Deployment URL
+https://sudoku-65uxmvcme-pandey-abhishek-nath-roys-projects.vercel.app
+
 ## 🚧 Bugs to fix
 
 Look inside:
