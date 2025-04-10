@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sudoku Solver App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Sudoku Solver</h1>
+
+  <div class="container">
+    <!-- Bug #1: Buttons have the wrong class name (not styled) -->
+    <div class="mode-toggle-wrong"> 
+      <button onclick="generateSudoku()">Generate & Solve</button>
+      <button onclick="enableManualEntry()">Enter My Sudoku</button>
+    </div>
+
+    <!-- Bug #2: Missing ID for Sudoku grid (script can't find it) -->
+    <div class="sudoku-grid"></div>
+
+    <!-- Bug #3: This solve button should be inside the container -->
+  </div>
+
+  <button onclick="solveSudoku()">Solve Sudoku</button>
+
+  <!-- Bug #4: Script tag placed before body ends, should go just before </body> ideally -->
+  <script src="script.js"></script>
+</body>
+</html>
