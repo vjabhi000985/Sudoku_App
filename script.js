@@ -52,7 +52,7 @@ function solveSudoku() {
   }
 
   if (!solve(board)) {
-    alert("No solution found!");  // Intentional bug: doesn't handle invalid input properly
+    alert("Invalid input or no solution exists. Please check your entries.");  // Intentional bug: doesn't handle invalid input properly
     return;
   }
 
@@ -93,5 +93,5 @@ function solve(board) {
 
 // Intentional Bug: Auto grid not initializing
 window.onload = () => {
-  // generateGrid(); // Uncommenting this will fix auto grid init
+  generateGrid(); // Uncommenting this will fix auto grid init
 };
