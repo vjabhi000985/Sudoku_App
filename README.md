@@ -6,7 +6,7 @@ This is a Sudoku Solver with two modes:
 - Manually input a puzzle and solve
 
 ## Deployment URL
-https://sudoku-65uxmvcme-pandey-abhishek-nath-roys-projects.vercel.app
+https://sudoku-8y7xv3mos-pandey-abhishek-nath-roys-projects.vercel.app
 
 ## 🚧 Bugs to fix
 
